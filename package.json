@@ -5,10 +5,10 @@
   "main": "server/server.js",
   "scripts": {
     "build": "gulp build",
-    "start": "gulp run --no-verify",  // Add the --no-verify option here
+    "start": "gulp run --no-verify",
     "watch": "gulp watch",
     "test": "gulp test",
-    "lint": "eslint src"  // Optionally, you can include a lint script
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,8 @@
     }
   ],
   "license": "MIT",
-  "contributors": [   "abalabahaha <hi@abal.moe> (https://github.com/abalabahaha)",
+  "contributors": [
+    "abalabahaha <hi@abal.moe> (https://github.com/abalabahaha)",
     "Ariamiro <dossantosgusmaosavio@gmail.com> (https://github.com/Ariamiro)",
     "Bjarne Oeverli <bjarne.oeverli@gmail.com> (https://github.com/bjarneo)",
     "Chris Morgan <chris.j.r.morgan@gmail.com> (https://github.com/drpotato)",
@@ -38,7 +39,8 @@
     "VILLERS Mickaël <mickael.villers@epitech.eu> (https://github.com/villers)",
     "wb9688 <wbertrums@gmail.com> (https://github.com/wb9688)"
   ],
-  "dependencies": {"@babel/core": "^7.21.8",
+  "dependencies": {
+    "@babel/core": "^7.21.8",
     "@babel/eslint-parser": "^7.21.8",
     "@babel/preset-env": "^7.21.5",
     "babel-loader": "^9.1.2",
@@ -62,9 +64,6 @@
     "webpack": "^5.82.1",
     "webpack-stream": "^7.0.0"
   },
-  "devDependencies": {
-      
-   
-  }
+  "devDependencies": {}
 }
-//this took way too fucking long, kill me now
+
