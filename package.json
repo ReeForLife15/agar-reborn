@@ -8,7 +8,8 @@
   "start": "gulp run --no-verify",
   "watch": "gulp watch",
   "test": "gulp test",
-  "lint": "eslint src || true"  
+  "lint": "eslint --ignore-path .gitignore --max-warnings=0 src || true"
+
 },
   "repository": {
     "type": "git",
